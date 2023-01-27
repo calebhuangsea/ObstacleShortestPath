@@ -184,7 +184,7 @@ while True:
         while temp:
             result = str((temp.x, temp.y)) + "(cost:" + str(temp.g) + ")" + "-->\n" + result
             temp = temp.parent
-        print(result)
+        print(result + "\n")
 
     # keep track of states that we are going to append later
     L = []
